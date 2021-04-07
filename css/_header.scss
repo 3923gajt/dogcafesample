@@ -1,0 +1,219 @@
+//
+// ヘッダーのスタイル
+//
+
+
+// ヘッダー
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    
+    padding: 0 0 0 2rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    @media (min-width: 769px) {
+        padding: 0 3rem 0 1rem;
+        // width: 100%;
+        // max-width: 1000px;
+        // margin: 0 auto;
+    }
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 6rem;
+    }
+}
+
+.logo {
+    display: inherit;
+    margin: 0;
+    color: #999999;
+    font-size: 3rem;
+    
+    // opacity: 0.7;
+     @media (min-width: 769px) {
+    //  margin-left: 270px;
+    
+      opacity: 0.7;
+    }
+    
+    
+}
+
+
+// ハンバーガーメニューボタン
+.nav-button {
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    height: 6rem;
+    font-size: 2.5rem;
+    color: #999999;   
+    cursor: pointer;
+    // opacity: 0.7;
+    @media (min-width: 769px) {
+        display: none;
+        color: #999999;
+    }
+}
+.slick-dots {
+    bottom: 10px;
+}
+
+.slick-dots li button:before {
+    color: #fff;
+    opacity: 0.8;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #b19833;
+}
+
+
+
+// SPナビゲーション
+.sp-nav {
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    display: none;
+    z-index: 1000;
+    width: 100%;
+    // padding: 4rem;
+    padding-top: 8rem;
+    font-size: 3rem;
+    text-align: center;
+    // color: #b19833;
+    background-color: white;
+    // border-top: 1px solid $gray2;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.sp-nav-list {
+    z-index: 1000;
+    padding: 0;
+    
+    margin: 0;
+    z-index: 1000;
+    list-style: none;
+    li {
+        margin-bottom: 2rem;
+        
+    }
+    
+    a {
+        color: #999999;
+        font-size: 4rem;
+        // margin: 0;
+    }
+}
+
+.sp-nav-map {
+    // color: #fff;
+    margin-top: 6rem;
+}
+
+
+
+// .sp-nav-map-adress {
+    
+//     // margin: 20px 50px;
+//     padding: 20px;
+//     margin: 20px 0;
+//     // text-align: center;
+//     border-top: 2px solid #ebd47a;
+//     border-bottom: 2px solid #ebd47a;
+//     display:inline-block;
+//     color: #fff;
+//     font-size: 1.2rem;
+    
+//     p{
+        
+//     }
+// }
+
+// .sp-nav-map-access {
+//     z-index: 1000;
+//     // padding: 15px;
+//     display: flex;
+//     color: #fff;
+//     font-size: 1.2rem;
+    
+//     p{
+//         // float:left;
+//     }
+//     // width: 50%;
+// }
+
+.sp-nav-map-sns{
+    display: flex;
+    margin: 20px 10px 0 30px;
+}
+.sp-nav-map-sns li {
+        list-style: none;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 3rem;
+        height: 3rem;
+        // margin: 0;
+        font-size: 2.4rem;
+        color: #ebd47a;
+        background-color: #fff;
+        border-radius: 50%;
+        margin: 4px;
+        
+}
+
+.sp-nav-map-sns a{
+     color: #999999;
+     display: flex;
+     
+}
+
+
+        
+    
+    
+
+// PCナビゲーション
+.pc-nav {
+    display: none;
+    @media (min-width: 769px) {
+        display: block;
+        // margin-right: 100px;
+        //  margin-left: 250px;
+        
+    }
+}
+
+
+.pc-nav-list {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: #999999;
+    // margin-right: 141px;
+    // margin-right: 230px;
+    li {
+        margin: 0 2rem 0 4rem;
+        opacity: 0.8;
+        font-size: 2rem;
+       
+    }
+    
+    a {
+        color: #999999;
+    }
+}
+

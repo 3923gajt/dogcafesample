@@ -1,0 +1,21 @@
+@charset 'UTF-8'; /* 文字コードの指定 */
+
+// Google Fontsの読み込み
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+// Scssファイルの読み込み
+@import "base";
+// @import "Roboto Condensed";
+// 以降はパーシャルファイルを追加したら読み込み記述を追加する
+@import "header";
+@import "cover";
+@import "_information.scss"; // 追加
+@import "section_title"; // 追加
+@import "_footer.scss";
+@import "_main.scss";
+@import "_about.scss";
+@import "_menu.scss";
+@import "_map.scss";
+@import "_main.scss";
+@import "_sidebar.scss";
+@import "_top.scss";

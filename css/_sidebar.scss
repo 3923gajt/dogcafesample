@@ -1,0 +1,47 @@
+//
+// サイドバーのスタイル
+//
+.page-flex{
+     @media (min-width: 769px) {
+         display: flex;
+         align-items: flex-start;
+     }
+}
+
+// .sidebar-categories-box li{
+//      @media (min-width: 769px){
+//          color:  #b19833;
+//      }
+// }
+
+.sidebar {
+    //  display: none;
+    @media (min-width: 769px) {
+       
+        // width: 30%;
+        padding-left: 9rem;
+        box-sizing: border-box;
+    }
+}
+
+
+.sidebar-menu{
+    @media (min-width: 769px) {
+        // display:flex;
+    }
+}
+
+.sidebar-banner {
+    display: none;
+    @media (min-width: 769px){
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    li {
+        margin-bottom: 2rem;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+}

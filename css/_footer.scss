@@ -1,0 +1,102 @@
+.footer {
+    padding: 2rem 2rem 2rem;
+    font-size: 1rem;
+    background-color: #fff;
+    height: 1rem;
+
+}
+
+.footer-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (min-width: 769px) {
+        
+}
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: 769px) {
+        // 追加
+        flex-direction: row; // 追加
+    } // 追加
+}
+
+.footer-logo {
+    margin-bottom: 1.5rem;
+
+    @media (min-width: 769px) {
+        // 追加
+        margin-right: 2.4rem; // 追加
+        margin-bottom: 0; // 追加
+    } // 追加
+}
+
+.footer-address {
+    margin-bottom: 2rem;
+    font-style: normal;
+    text-align: center;
+
+    @media (min-width: 769px) {
+        // 追加
+        margin-bottom: 0; // 追加
+        text-align: left; // 追加
+    } // 追加
+}
+
+.footer-sns {
+    display: flex;
+    padding: 0;
+    margin: 0 0 2rem;
+    list-style: none;
+
+    @media (min-width: 769px) {
+        
+        margin: 0; 
+    } 
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4rem;
+        height: 4rem;
+        margin: 0;
+        font-size: 2.4rem;
+        background-color: #84847c;
+        border-radius: 50%;
+        &:first-child {
+            margin-right: 2rem;
+        }
+    }
+    a {
+        color: $white;
+    }
+}
+
+.copyright  {
+    text-align: center;
+    color: #black;
+    
+    @media (min-width: 769px) {
+    // margin-left: 77rem;
+    text-align: center;
+    align-items: center;
+    opacity: 0.5;
+    }
+}
+
+.copyright small{
+        @media (min-width: 769px) {
+    // margin-left: 77rem;
+    text-align: center;
+    align-items: center;
+    
+}
+}
+
