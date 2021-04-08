@@ -49,8 +49,8 @@
     
 }
 .information-halfbox {
-  display: flex;
-  flex-wrap: wrap;
+//   display: flex;
+//   flex-wrap: wrap;
   width: calc(100% / 2 - 20px); // 全体を2で割ってmargin分（10px 2個分）を引く
   margin: 10px;
 //   box-sizing: border-box;
