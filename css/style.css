@@ -9,9 +9,9 @@ body {
   font-family: "Noto Sans JP", sans-serif;
   font-family: "Roboto Condensed";
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.75;
-  color: #999999;
+  color: #696969;
   background-color: #fff;
   background-image: url("../images/cover/asiato7.jpeg");
   background-position: center;
@@ -39,6 +39,7 @@ img {
 
 p {
   font-family: "Noto Sans JP", sans-serif;
+  color: #696969;
 }
 
 .header {
@@ -65,7 +66,7 @@ p {
 .logo {
   display: inherit;
   margin: 0;
-  color: #999999;
+  color: #696969;
   font-size: 3rem;
 }
 @media (min-width: 769px) {
@@ -82,13 +83,13 @@ p {
   width: 6rem;
   height: 6rem;
   font-size: 2.5rem;
-  color: #999999;
+  color: #696969;
   cursor: pointer;
 }
 @media (min-width: 769px) {
   .nav-button {
     display: none;
-    color: #999999;
+    color: #696969;
   }
 }
 
@@ -179,7 +180,7 @@ p {
   padding: 0;
   margin: 0;
   list-style: none;
-  color: #999999;
+  color: #696969;
 }
 .pc-nav-list li {
   margin: 0 2rem 0 4rem;
@@ -187,7 +188,7 @@ p {
   font-size: 2rem;
 }
 .pc-nav-list a {
-  color: #999999;
+  color: #696969;
 }
 
 .cover {
@@ -304,8 +305,6 @@ p {
 }
 
 .information-halfbox {
-  display: flex;
-  flex-wrap: wrap;
   width: calc(100% / 2 - 20px);
   margin: 10px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
@@ -1255,7 +1254,7 @@ h3.sub-menu-name {
 .map-logo a {
   justify-content: center;
   padding: 40px 20px;
-  color: #999999;
+  color: #696969;
   font-size: 20px;
 }
 @media (min-width: 769px) {
@@ -1333,7 +1332,7 @@ h3.sub-menu-name {
   width: 66.66%;
   flex-direction: column;
   align-items: center;
-  color: #999999;
+  color: #696969;
 }
 @media (min-width: 769px) {
   .map-adress {
@@ -1359,7 +1358,7 @@ h3.sub-menu-name {
   flex-direction: column;
   align-items: center;
   flex-direction: row;
-  color: #999999;
+  color: #696969;
 }
 @media (min-width: 769px) {
   .map-access {
@@ -1417,15 +1416,15 @@ h3.sub-menu-name {
   width: 4rem;
   height: 4rem;
   font-size: 2rem;
-  color: #999999;
+  color: #696969;
   background-color: #fff;
   border-radius: 50%;
   margin: 1rem;
 }
 
 .map-sns a {
-  color: #999999;
   display: flex;
+  color: #696969;
 }
 
 .sub-information-access {
@@ -1451,7 +1450,7 @@ h3.sub-menu-name {
   display: flex;
   justify-content: center;
   font-size: 1.5rem;
-  color: #999999;
+  color: #696969;
   justify-content: space-between;
 }
 @media (min-width: 769px) {
@@ -1474,7 +1473,7 @@ h3.sub-menu-name {
   justify-content: center;
   margin-top: -2rem;
   font-size: 1.5rem;
-  color: #999999;
+  color: #696969;
   justify-content: space-between;
 }
 @media (min-width: 769px) {
@@ -1517,7 +1516,7 @@ h3.sub-menu-name {
   padding: 0 10px;
   flex-direction: column;
   align-items: center;
-  color: #999999;
+  color: #696969;
 }
 @media (min-width: 769px) {
   .sub-map-adress {
@@ -1533,7 +1532,7 @@ h3.sub-menu-name {
   flex-direction: column;
   align-items: center;
   flex-direction: row;
-  color: #999999;
+  color: #696969;
 }
 @media (min-width: 769px) {
   .sub-map-access {
@@ -1590,14 +1589,14 @@ h3.sub-menu-name {
   width: 5rem;
   height: 5rem;
   font-size: 2rem;
-  color: #999999;
+  color: #696969;
   background-color: #fff;
   border-radius: 50%;
   margin: 1rem;
 }
 
 .sub-map-sns a {
-  color: #999999;
+  color: #696969;
   display: flex;
 }
 
